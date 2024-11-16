@@ -1,4 +1,4 @@
-# efficientnet
+# DR_capstone
 
 
 **ex4.py** Test Loss: 0.6969, Test Accuracy: 0.7957 (1585/1992)
