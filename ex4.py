@@ -86,7 +86,7 @@ val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
 # EfficientNet 모델 로드 및 수정
-model = EfficientNet.from_pretrained('efficientnet-b7')
+model = EfficientNet.from_pretrained('efficientnet-b0')
 model._fc = nn.Linear(model._fc.in_features, num_classes)
 model = model.to(device)
 
