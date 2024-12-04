@@ -8,3 +8,5 @@
 
 
 **ex6_b5.py** Test Loss: 0.2324, Test Accuracy: 0.7565 (1507/1992), Test MSE: 1.0271
+
+**final.py** Test Loss: 0.6279, Test Accuracy: 0.8012, Test MSE: 0.5924
